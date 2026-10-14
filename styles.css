@@ -204,6 +204,15 @@ address { font-style: normal; }
   fill: none; stroke: currentColor; stroke-width: 2;
   stroke-linecap: round; stroke-linejoin: round;
 }
+.brand__logo {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  display: block;
+  border-radius: 9px;
+  background: #fff;
+  object-fit: contain;
+}
 .brand__text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand__text strong { font-family: var(--serif); color: var(--navy); font-size: 1.02rem; }
 .brand__text small { color: var(--muted); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
